@@ -1,5 +1,6 @@
 backend:
   name: git-gateway
+  repo: radipawelec/itswebsite
   branch: master 
 
 media_folder: "static/images/uploads" 

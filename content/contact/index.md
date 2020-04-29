@@ -3,6 +3,14 @@ date = "2020"
 title = "Contact"
 +++
 
+<script src="https://www.google.com/recaptcha/api.js?render=6Lf-MfAUAAAAAE4dwSezxCqvNloSgnV3wdHcXJUN"></script>
+
+<script>
+grecaptcha.ready(function() {
+    grecaptcha.execute('6Lf-MfAUAAAAAE4dwSezxCqvNloSgnV3wdHcXJUN', {action: 'contact'});
+});
+</script>
+
 <style>
 
   #contactForm {

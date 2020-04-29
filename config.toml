@@ -83,7 +83,7 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   # Metadata mostly used in document's head
   # description = ""
   # images = [""]
-  themeColor = "#494f5c"
+  themeColor = "#F62772"
 
   homeSubtitle = "bring digital to center of your business thinking"
   footerCopyright = ' <a href="https://gohugo.io/" target="_blank" rel="noopener">with ❤️ in HUGO</a>'

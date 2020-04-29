@@ -1,10 +1,182 @@
-aTag a {
+
+a {
     word-wrap: break-word;
     border: none;
     box-shadow: inset 0 -4px 0 #f82672;
     transition-property: box-shadow;
-    transition-duration: 0.1s;
+    transition-duration: .1s
 }
-aTag a:hover {
-    box-shadow: inset 0 -1em 0 #f82672;
+
+.content a:hover {
+    box-shadow: inset 0 -1em 0 #f82672
+}
+
+.content figure {
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+    text-align: center
+}
+
+.content figure p {
+    font-size: .8em;
+    font-style: italic;
+    opacity: .6
+}
+
+.content figure.left {
+    float: left;
+    margin-right: 1.5em;
+    max-width: 50%
+}
+
+.content figure.right {
+    float: right;
+    margin-left: 1.5em;
+    max-width: 50%
+}
+
+.content figure.big {
+    max-width: 100vw
+}
+
+.content img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    border-radius: 4px
+}
+
+.content ul,
+.content ol {
+    padding: 0;
+    margin-left: 1.8em
+}
+
+.content a.anchor {
+    float: left;
+    margin-left: -20px;
+    padding-right: 6px;
+    box-shadow: none;
+    opacity: .8
+}
+
+.content a.anchor:hover {
+    background: 0 0;
+    color: #f82672;
+    opacity: 1
+}
+
+.content a.anchor svg {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    vertical-align: baseline;
+    visibility: hidden
+}
+
+.content a.anchor:focus svg {
+    visibility: visible
+}
+
+.content h1:hover a.anchor svg,
+.content h2:hover a.anchor svg,
+.content h3:hover a.anchor svg,
+.content h4:hover a.anchor svg,
+.content h5:hover a.anchor svg,
+.content h6:hover a.anchor svg {
+    visibility: visible
+}
+
+.footnotes {
+    font-size: .85em
+}
+
+.footnotes a {
+    box-shadow: none;
+    text-decoration: underline;
+    transition-property: color
+}
+
+.footnotes a:hover {
+    background: 0 0
+}
+
+.footnotes a.footnote-return {
+    text-decoration: none
+}
+
+.footnotes ol {
+    line-height: 1.8
+}
+
+.footnote-ref a {
+    box-shadow: none;
+    text-decoration: none;
+    padding: 2px;
+    border-radius: 2px;
+    background-color: #2c3e50
+}
+
+.post-info {
+    font-size: .8rem;
+    line-height: normal;
+    opacity: .6
+}
+
+.post-info p {
+    margin: .8em 0
+}
+
+.post-info a:hover {
+    border-bottom: 1px solid #f82672
+}
+
+.post-info svg {
+    margin-right: .8em
+}
+
+.post-info .tag {
+    margin-right: .5em
+}
+
+.post-info .tag::before {
+    content: "#"
+}
+
+#toc {
+    position: fixed;
+    left: 50%;
+    top: 0;
+    display: none
+}
+
+.toc-title {
+    margin-left: 1em;
+    margin-bottom: .5em;
+    font-size: .8em;
+    font-weight: 700
+}
+
+#TableOfContents {
+    font-size: .8em;
+    opacity: .6
+}
+
+#TableOfContents ul {
+    padding-left: 1em;
+    margin: 0
+}
+
+#TableOfContents>ul {
+    list-style-type: none
+}
+
+#TableOfContents>ul ul ul {
+    font-size: .9em
+}
+
+#TableOfContents a:hover {
+    border-bottom: #f82672 1px solid
 }

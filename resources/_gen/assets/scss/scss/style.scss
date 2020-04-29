@@ -590,7 +590,7 @@ hr.post-end {
     opacity: .8;
     &:hover {
       background: none;
-      color: $theme;
+      color: #F82672;
       opacity: 1;
     }
 
@@ -656,7 +656,7 @@ hr.post-end {
   }
 
   a:hover {
-    border-bottom: 1px solid $theme;
+    border-bottom: 1px solid #F82672;
   }
 
   svg {
@@ -704,7 +704,7 @@ hr.post-end {
   }
 
   a:hover {
-    border-bottom: $theme 1px solid;
+    border-bottom: #F82672 1px solid;
   }
 }
 

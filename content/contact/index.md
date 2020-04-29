@@ -13,6 +13,9 @@ grecaptcha.ready(function() {
 
 <style>
 
+.grecaptcha-badge {
+  bottom: 60px !important;
+}
   #contactForm {
       margin: 0 auto;
 }

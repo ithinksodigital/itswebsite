@@ -68,8 +68,8 @@ grecaptcha.ready(function() {
 <!-- <p style="visibilty: hidden">
   <label>Don't fill this out if you're human:</label><input name=bot-field>
 </p> -->
-  <input class="formInput" type="text" id="name" name="name" autocorrect="off" placeholder="Name"/><br/>    
-  <input class="formInput" type="email" name="email" id="email" autocapitalize="off" autocorrect="off" placeholder="Email"/><br/>
+  <input class="formInput" type="text" id="name" name="name" autocorrect="off" placeholder="Name"/>
+  <input class="formInput" type="email" name="email" id="email" autocapitalize="off" autocorrect="off" placeholder="Email"/>
   <textarea class="formInput" name="message" id="message" placeholder="Message"></textarea>
   <br>
     <input class="submitForm" type="reset" value="Clear your message" />

@@ -64,7 +64,7 @@ grecaptcha.ready(function() {
        color: #E7EDF1;
 }
 </style>
-<form action="/thankyou" data-netlify="true" id="contactForm" onsubmit="return validate()"  method="post" netlify>
+<form action="/thankyou" id="contactForm" onsubmit="return validate()"  method="post" netlify>
 <!-- <p style="visibilty: hidden">
   <label>Don't fill this out if you're human:</label><input name=bot-field>
 </p> -->

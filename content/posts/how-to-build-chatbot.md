@@ -175,12 +175,3 @@ Final code you can finde on my [Github repo](https://github.com/radipawelec/mess
 
 This post originally was published also on Medium. 
 
-<form action="https://getform.io/f/d467882a-9a80-4269-abf5-796e0a70dd2e" method="POST" markdown="1">
-
-  <input type="text" name="name">
-  <input type="email" name="email">
-  <input type="tel" name="tel">
-  <button type="submit">Send</button>
-
-</form>
-

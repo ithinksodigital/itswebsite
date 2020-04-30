@@ -64,10 +64,10 @@ grecaptcha.ready(function() {
        color: #E7EDF1;
 }
 </style>
-<form action="/thankyou" data-netlify="true" netlify-honeypot="bot-field" id="contactForm" onsubmit="return validate()"  method="post" netlify>
-<p style="visibilty: hidden">
+<form action="/thankyou" data-netlify="true" id="contactForm" onsubmit="return validate()"  method="post" netlify>
+<!-- <p style="visibilty: hidden">
   <label>Don't fill this out if you're human:</label><input name=bot-field>
-</p>
+</p> -->
   <input class="formInput" type="text" id="name" name="name" autocorrect="off" placeholder="Name"/>
   <input class="formInput" type="email" name="email" id="email" autocapitalize="off" autocorrect="off" placeholder="Email"/>
   <textarea class="formInput" name="message" id="message" placeholder="Message"></textarea>

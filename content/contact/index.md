@@ -64,8 +64,10 @@ grecaptcha.ready(function() {
        color: #E7EDF1;
 }
 </style>
-<form id="contactForm" onsubmit="return validate()"  method="post" netlify>
-            
+<form action="/thankyou" data-netlify="true" netlify-honeypot="bot-field" id="contactForm" onsubmit="return validate()"  method="post" netlify>
+<p style="visibilty: hidden">
+  <label>Don't fill this out if you're human:</label><input name=bot-field>
+</p>
   <input class="formInput" type="text" id="name" name="name" autocorrect="off" placeholder="Name"/>
   <input class="formInput" type="email" name="email" id="email" autocapitalize="off" autocorrect="off" placeholder="Email"/>
   <textarea class="formInput" name="message" id="message" placeholder="Message"></textarea>
@@ -73,6 +75,8 @@ grecaptcha.ready(function() {
   <br>
     <input class="submitForm" type="reset" value="Clear your message" />
     <br/>
+    <br>
+    <div data-netlify-recaptcha></div>
     <strong><input class="submitForm" type="submit" value="Send"/></strong>
           
 </form>

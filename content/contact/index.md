@@ -66,9 +66,9 @@ grecaptcha.ready(function() {
 </style>
 <form id="contactForm" onsubmit="return validate()"  method="post" netlify>
             
-  <input class="formInput" type="text" id="name" name="name" autocorrect="off" placeholder="Name?"/>
-  <input class="formInput" type="email" name="email" id="email" autocapitalize="off" autocorrect="off" placeholder="Email?"/>
-  <textarea class="formInput" name="message" id="message" placeholder="Message?"></textarea>
+  <input class="formInput" type="text" id="name" name="name" autocorrect="off" placeholder="Name"/>
+  <input class="formInput" type="email" name="email" id="email" autocapitalize="off" autocorrect="off" placeholder="Email"/>
+  <textarea class="formInput" name="message" id="message" placeholder="Message"></textarea>
   
   <br>
     <input class="submitForm" type="reset" value="Clear your message" />

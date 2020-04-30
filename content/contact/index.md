@@ -71,12 +71,9 @@ grecaptcha.ready(function() {
   <input class="formInput" type="text" id="name" name="name" autocorrect="off" placeholder="Name"/>
   <input class="formInput" type="email" name="email" id="email" autocapitalize="off" autocorrect="off" placeholder="Email"/>
   <textarea class="formInput" name="message" id="message" placeholder="Message"></textarea>
-  
   <br>
     <input class="submitForm" type="reset" value="Clear your message" />
     <br/>
-    <br>
-    <div data-netlify-recaptcha></div>
     <strong><input class="submitForm" type="submit" value="Send"/></strong>
           
 </form>

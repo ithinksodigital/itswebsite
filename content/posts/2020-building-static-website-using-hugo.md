@@ -7,6 +7,8 @@ draft: false
 tags:
   - hugo webdevelopment staticwebsite website
 ---
+![](/images/uploads/hugo-cli-img-social.png)
+
 Have you ever heard about Hugo? If not but you need to build your own website - portfolio, company page, product page or just a blog you definitely need to read this article. 
 
 ![Hugo logo ](/images/uploads/hugo-logo-wide.svg "Hugo logo")

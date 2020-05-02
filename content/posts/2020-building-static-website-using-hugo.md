@@ -11,6 +11,8 @@ Have you ever heard about Hugo? If not but you need to build your own website - 
 
 ![Hugo logo ](/images/uploads/hugo-logo-wide.svg "Hugo logo")
 
+
+
 > [Hugo](https://gohugo.io/) is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again. 
 
-This you can read on Hugo's website. What is the most important with this you don't need know special coding skills.
+This is what you can read on Hugo's website. What is the most important it this tool? You don't need to have any special coding skills! Still interesting? Good! Let's start.

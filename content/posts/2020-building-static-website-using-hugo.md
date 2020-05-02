@@ -19,14 +19,18 @@ This is what you can read on Hugo's website. What is the most important it this 
 
 The easiest way to install Hugo on MacOS/ Linux is using Homebrew or Choco if you are using Windows.  To start just open your favoutire termial and type: 
 
-```
+
+
+```bash
 brew install hugo
 hugo version
 ```
 
 Then Hugo will be installed. Command `hugo version`  should return your something like bellow, it means that CLI was installed successfully. 
 
-```
+
+
+```bash
 Hugo Static Site Generator v0.69.0/extended darwin/amd64 BuildDate: unknown
 ```
 
@@ -60,3 +64,5 @@ The last thing which you have to do to add theme to your page is edit the config
 ```bash
 theme = 'slim'
 ```
+
+Quite easy, right?

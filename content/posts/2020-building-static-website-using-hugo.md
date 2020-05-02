@@ -61,8 +61,25 @@ git clone https://github.com/zhe/hugo-theme-slim slim
 
 The last thing which you have to do is add theme to your site. To do it just edit the config.toml in root folder of your project. How this file will be looking depends on which theme you chosen. In general for sure you have to add a line indicating which theme will be use by Hugo. But better find in your theme folder **exampleSite** directory and copy all content form config.toml your own. 
 
+At this moment you can also change the baseURL to your domain address. 
+
 ```bash
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "My New Hugo Site"
 theme = 'slim'
+
+[params]
+  Subtitle = "Your site's subtitle/tagline"
+  GithubID = "Your Github ID"
+  TwitterID = "Your Twitter ID"
+  AnalyticsID = "Your Google Analytics tracking code"
+  DisqusShortname = "Your Disqus shortname"
+  Summary = true  # takes true or false
+  Content = false  # takes true or false
+  # if both are set to true, summary is shown.
+  # FooterMsg = "Copyright Me 2016. Powered by Hugo."
+  mainSections = ["post"]
 ```
 
 Quite easy, right? Ok, but it was supposed to be a blog! Yes, adding the new blog post is also so easy. Look on your config file there should be something like: 
@@ -71,4 +88,35 @@ Quite easy, right? Ok, but it was supposed to be a blog! Yes, adding the new blo
 mainSections = \["post"]
 ```
 
-Ok so create new folder named **post** under the content directory. All your posts should be added here. To add new blog post just create new file like title-my-blog-post.md or what you prefered. But very important is to keep the *.md extensions. Hugo to rendering new conted is using Markdown language. It is saved in plain text format but includes inline text symbols that define how to format the text. Markdown language have very simple syntax which you want to check [here](https://guides.github.com/features/mastering-markdown/).
+It means that all your post have to be in post folder. Ok so create new folder named **post** under the content directory. To add new blog post just create new file like title-my-blog-post.md or what you prefered. But very important is to keep the *.md extensions. Hugo to rendering new conted is using Markdown language. It is saved in plain text format but includes inline text symbols that define how to format the text. Markdown language has very simple syntax which you want to check [here](https://guides.github.com/features/mastering-markdown/). 
+
+Sample blog post bellow:
+
+```markdown
++++
+title = "Blog post"
+date = 2020-04-21T21:36:10+02:00
+draft = false
++++
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Etiam pharetra cursus turpis, laoreet venenatis diam varius eu. 
+Maecenas feugiat, est ac auctor scelerisque, dui eros ornare quam, vel vestibulum neque sapien et sapien. Cras congue, augue eu tristique ullamcorper, justo dui euismod dolor, quis faucibus eros turpis id mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dolor magna, imperdiet et lacinia id, suscipit vel velit. Aliquam luctus leo sit amet magna tempor, in aliquet dolor placerat. Donec eget aliquet purus. Donec feugiat dapibus ipsum et iaculis. Cras convallis nec elit ut porta. Vestibulum dignissim auctor tincidunt. Duis hendrerit, nibh sit amet tempor porttitor, diam felis vulputate mauris, ut tincidunt mauris nisi at magna.
+
+
+```
+
+The part between plus signs is something like setting of your entries. Bellow the settings real content of your post. Now if you save this file new post will be added to your home page Thats all.
+
+If you don't want to publish you post immediately just change draft from false to true. 
+
+Build static pages[](https://gohugo.io/getting-started/quick-start/#step-7-build-static-pages) it is simple. Just call:
+
+```
+hugo -D
+```
+
+Output will be in`/public/`directory. All what is inside this directory just copy to your sever and voilà your site is online.
+
+
+
+![](/images/uploads/screenshot-2020-05-02-at-21.25.11.png)

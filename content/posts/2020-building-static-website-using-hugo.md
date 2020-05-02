@@ -5,7 +5,7 @@ date: 2020-05-02T13:12:19.207Z
 thumbnail: /images/uploads/hugo-logo-wide.svg
 draft: false
 tags:
-  - news
+  - hugo webdevelopment staticwebsite website
 ---
 Have you ever heard about Hugo? If not but you need to build your own website - portfolio, company page, product page or just a blog you definitely need to read this article. 
 
@@ -37,16 +37,14 @@ hugo new site blog
 ```
 
 \
-The above will create a new Hugo site in a folder named `blog`. Change directory to this path and run local server which is built it in Hugo.  Server will be automatically run on port 1313 so if you open your browser and visit http://localhost:1313/ your page will be display. Now page is blank because there is no content there. You have to add theme. 
+The above will create a new Hugo site in a folder named `blog`. Change directory to this path and run local server which is built in inside Hugo.  Server will be automatically run on port 1313 so if you open your browser and visit http://localhost:1313/ your page will be display. Now page is blank because there is no content there. You have to add theme. 
 
 ```bash
 hugo server -D
 ```
 
 \
-To do it the easiest way is [visit Hugo website](https://themes.gohugo.io/) where you can find a lot of ready to use themes. Some of them are suit for product page, portfolio or blog for which I need. I've chosen theme named [hugo-theme-slim](https://github.com/zhe/hugo-theme-slim). 
-
-To install theme visit the themes Github repository and clone to your website directory. 
+To do it the easiest way is [visit Hugo website](https://themes.gohugo.io/) where you can find a lot of ready to use themes. Some of them are suit for product page, portfolio or blog for which I need. I've chosen theme named [hugo-theme-slim](https://github.com/zhe/hugo-theme-slim). When you choose one which you want to use just visit the themes Github repository and clone it to your website directory. 
 
 ![git hub clone](/images/uploads/clone-git.gif)
 
@@ -55,4 +53,10 @@ To install theme visit the themes Github repository and clone to your website di
 ```bash
 cd themes
 git clone https://github.com/zhe/hugo-theme-slim slim
+```
+
+The last thing which you have to do to add theme to your page is edit the config.toml in root folder of your project and add this one line. Of course in your case it will be theme name which you chosen and clone into your project folder.  
+
+```bash
+theme = 'slim'
 ```

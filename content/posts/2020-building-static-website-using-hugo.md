@@ -24,7 +24,7 @@ brew install hugo
 hugo version
 ```
 
-Then Hugo will be installed. Command `hugo version`  should return your something like that like bellow, it mens that CLI was installed successfully. 
+Then Hugo will be installed. Command `hugo version`  should return your something like bellow, it means that CLI was installed successfully. 
 
 ```
 Hugo Static Site Generator v0.69.0/extended darwin/amd64 BuildDate: unknown
@@ -37,10 +37,11 @@ hugo new site blog
 ```
 
 \
-The above will create a new Hugo site in a folder named `blog`. Move to it folder and run local server which is built it in Hugo. 
-
-
+The above will create a new Hugo site in a folder named `blog`. Move to it folder and run local server which is built it in Hugo.  Server will be automatically run on port 1313 so if you open your browser and type http://localhost:1313/ your page will be display. Now there is no content here so you have to add theme. 
 
 ```bash
 hugo server -D
 ```
+
+\
+To to it the easiest way is [visit Hugo website](https://themes.gohugo.io/) where you can find a lot of ready to use themes.

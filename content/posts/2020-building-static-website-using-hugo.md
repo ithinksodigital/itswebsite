@@ -7,13 +7,11 @@ draft: false
 tags:
   - hugo webdevelopment staticwebsite website
 ---
-![](/images/uploads/hugo-cli-img-social.png)
+![hero image](/images/uploads/hugo-cli-img-social.png)
 
 Have you ever heard about Hugo? If not but you need to build your own website - portfolio, company page, product page or just a blog you definitely need to read this article. 
 
 ![Hugo logo ](/images/uploads/hugo-logo-wide.svg "Hugo logo")
-
-
 
 > [Hugo](https://gohugo.io/) is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again. 
 
@@ -21,16 +19,12 @@ This is what you can read on Hugo's website. What is the most important it this 
 
 The easiest way to install Hugo on MacOS/ Linux is using Homebrew or Choco if you are using Windows.  To start just open your favourite terminal and call: 
 
-
-
 ```bash
 brew install hugo
 hugo version
 ```
 
 Then Hugo will be installed. Command `hugo version`  should return your something like bellow, it means that CLI was installed successfully. 
-
-
 
 ```bash
 Hugo Static Site Generator v0.69.0/extended darwin/amd64 BuildDate: unknown
@@ -53,8 +47,6 @@ hugo server -D
 To do it the easiest way is [visit Hugo website](https://themes.gohugo.io/) where you can find a lot of ready to use themes. Some of them are suit for product page, portfolio or blog for which I need. I've chosen theme named [hugo-theme-slim](https://github.com/zhe/hugo-theme-slim). When you choose one which you want to use just visit the themes Github repository and clone it to your website directory. 
 
 ![git hub clone](/images/uploads/clone-git.gif)
-
-
 
 ```bash
 cd themes
@@ -105,8 +97,6 @@ draft = false
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 Etiam pharetra cursus turpis, laoreet venenatis diam varius eu. 
 Maecenas feugiat, est ac auctor scelerisque, dui eros ornare quam, vel vestibulum neque sapien et sapien. Cras congue, augue eu tristique ullamcorper, justo dui euismod dolor, quis faucibus eros turpis id mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dolor magna, imperdiet et lacinia id, suscipit vel velit. Aliquam luctus leo sit amet magna tempor, in aliquet dolor placerat. Donec eget aliquet purus. Donec feugiat dapibus ipsum et iaculis. Cras convallis nec elit ut porta. Vestibulum dignissim auctor tincidunt. Duis hendrerit, nibh sit amet tempor porttitor, diam felis vulputate mauris, ut tincidunt mauris nisi at magna.
-
-
 ```
 
 The part between plus signs is something like setting of your entries. Bellow the settings real content of your post. Now if you save this file new post will be added to your home page Thats all.
@@ -120,7 +110,5 @@ hugo -D
 ```
 
 Output will be in`/public/`directory. All what is inside this directory just copy to your sever and voilà your site is online.
-
-
 
 ![](/images/uploads/screenshot-2020-05-02-at-21.25.11.png)

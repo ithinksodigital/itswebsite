@@ -16,3 +16,11 @@ Have you ever heard about Hugo? If not but you need to build your own website - 
 > [Hugo](https://gohugo.io/) is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again. 
 
 This is what you can read on Hugo's website. What is the most important it this tool? You don't need to have any special coding skills! Still interesting? Good! Let's start.
+
+The easiest way to install Hugo on MacOS/ Linux is using Homebrew or Choco on Linux. Just open your favoutire termial and type: 
+
+
+
+```
+brew install hugo
+```

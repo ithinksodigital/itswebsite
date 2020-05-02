@@ -37,4 +37,10 @@ hugo new site blog
 ```
 
 \
-The above will create a new Hugo site in a folder named `blog`.
+The above will create a new Hugo site in a folder named `blog`. Move to it folder and run local server which is built it in Hugo. 
+
+
+
+```bash
+hugo server -D
+```

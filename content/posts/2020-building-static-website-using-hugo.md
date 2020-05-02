@@ -34,7 +34,7 @@ Then Hugo will be installed. Command `hugo version`  should return your somethin
 Hugo Static Site Generator v0.69.0/extended darwin/amd64 BuildDate: unknown
 ```
 
-To create new page give the command: 
+To create new site give the command: 
 
 ```bash
 hugo new site blog
@@ -59,10 +59,16 @@ cd themes
 git clone https://github.com/zhe/hugo-theme-slim slim
 ```
 
-The last thing which you have to do to add theme to your page is edit the config.toml in root folder of your project and add this one line. Of course in your case it will be theme name which you chosen and clone into your project folder.  
+The last thing which you have to do is add theme to your site. To do it just edit the config.toml in root folder of your project. How this file will be looking depends on which theme you chosen. In general for sure you have to add a line indicating which theme will be use by Hugo. But better find in your theme folder **exampleSite** directory and copy all content form config.toml your own. 
 
 ```bash
 theme = 'slim'
 ```
 
-Quite easy, right?
+Quite easy, right? Ok, but it was supposed to be a blog! Yes, adding the new blog post is also so easy. Look on your config file there should be something like: 
+
+```
+mainSections = \["post"]
+```
+
+Ok so create new folder named **post** under the content directory. All your posts should be added here. To add new blog post just create new file like title-my-blog-post.md or what you prefered. But very important is to keep the *.md extensions. Hugo to rendering new conted is using Markdown language. It is saved in plain text format but includes inline text symbols that define how to format the text. Markdown language have very simple syntax which you want to check [here](https://guides.github.com/features/mastering-markdown/).

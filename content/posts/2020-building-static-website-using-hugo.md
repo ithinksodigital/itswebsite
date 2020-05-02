@@ -2,7 +2,7 @@
 layout: post
 title: Building static website using HUGO
 date: 2020-05-02T13:12:19.207Z
-thumbnail: /images/uploads/hugo-logo-wide.svg
+thumbnail: /images/uploads/hugo-cli-img-social.png
 draft: false
 tags:
   - hugo webdevelopment staticwebsite website

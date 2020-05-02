@@ -24,7 +24,7 @@ brew install hugo
 hugo version
 ```
 
-Then Hugo will be installed. Command hugo version should return yout something like that like bellow, it mens that CLI was installed successfully. 
+Then Hugo will be installed. Command `hugo version`  should return your something like that like bellow, it mens that CLI was installed successfully. 
 
 ```
 Hugo Static Site Generator v0.69.0/extended darwin/amd64 BuildDate: unknown

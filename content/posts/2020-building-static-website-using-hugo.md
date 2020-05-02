@@ -17,7 +17,7 @@ Have you ever heard about Hugo? If not but you need to build your own website - 
 
 This is what you can read on Hugo's website. What is the most important it this tool? You don't need to have any special coding skills! Still interesting? Good! Let's start.
 
-The easiest way to install Hugo on MacOS/ Linux is using Homebrew or Choco if you are using Windows.  To start just open your favoutire termial and type: 
+The easiest way to install Hugo on MacOS/ Linux is using Homebrew or Choco if you are using Windows.  To start just open your favourite terminal and call: 
 
 
 
@@ -89,6 +89,8 @@ mainSections = \["post"]
 ```
 
 It means that all your post have to be in post folder. Ok so create new folder named **post** under the content directory. To add new blog post just create new file like title-my-blog-post.md or what you prefered. But very important is to keep the *.md extensions. Hugo to rendering new conted is using Markdown language. It is saved in plain text format but includes inline text symbols that define how to format the text. Markdown language has very simple syntax which you want to check [here](https://guides.github.com/features/mastering-markdown/). 
+
+![](/images/uploads/screenshot-2020-05-02-at-21.28.48.png)
 
 Sample blog post bellow:
 

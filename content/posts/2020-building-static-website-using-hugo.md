@@ -2,12 +2,12 @@
 layout: post
 title: Building static website using HUGO
 date: 2020-05-02T13:12:19.207Z
-thumbnail: /images/uploads/hugo-cli-img-social.png
+thumbnail: /images/uploads/hugo-sm-hero.jpg
 draft: false
 tags:
   - hugo webdevelopment staticwebsite website
 ---
-![hero image](/images/uploads/hugo-cli-img-social.png)
+![hero image](/images/uploads/hugo-sm-hero.jpg)
 
 Have you ever heard about Hugo? If not but you need to build your own website - portfolio, company page, product page or just a blog you definitely need to read this article. 
 

@@ -111,7 +111,7 @@ The part between plus signs is something like setting of your entries. Bellow th
 
 If you don't want to publish you post immediately just change draft from false to true. 
 
-Build static pages[](https://gohugo.io/getting-started/quick-start/#step-7-build-static-pages) it is simple. Just call:
+Build static pages[](https://gohugo.io/getting-started/quick-start/#step-7-build-static-pages)? Just call:
 
 ```
 hugo -D

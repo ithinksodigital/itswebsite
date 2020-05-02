@@ -90,7 +90,7 @@ mainSections = \["post"]
 
 It means that all your post have to be in post folder. Ok so create new folder named **post** under the content directory. To add new blog post just create new file like title-my-blog-post.md or what you prefered. But very important is to keep the *.md extensions. Hugo to rendering new conted is using Markdown language. It is saved in plain text format but includes inline text symbols that define how to format the text. Markdown language has very simple syntax which you want to check [here](https://guides.github.com/features/mastering-markdown/). 
 
-![](/images/uploads/screenshot-2020-05-02-at-21.28.48.png)
+![](/images/uploads/dir-tree.png)
 
 Sample blog post bellow:
 

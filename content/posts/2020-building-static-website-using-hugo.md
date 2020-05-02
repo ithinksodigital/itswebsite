@@ -37,11 +37,22 @@ hugo new site blog
 ```
 
 \
-The above will create a new Hugo site in a folder named `blog`. Move to it folder and run local server which is built it in Hugo.  Server will be automatically run on port 1313 so if you open your browser and type http://localhost:1313/ your page will be display. Now there is no content here so you have to add theme. 
+The above will create a new Hugo site in a folder named `blog`. Change directory to this path and run local server which is built it in Hugo.  Server will be automatically run on port 1313 so if you open your browser and visit http://localhost:1313/ your page will be display. Now page is blank because there is no content there. You have to add theme. 
 
 ```bash
 hugo server -D
 ```
 
 \
-To to it the easiest way is [visit Hugo website](https://themes.gohugo.io/) where you can find a lot of ready to use themes.
+To do it the easiest way is [visit Hugo website](https://themes.gohugo.io/) where you can find a lot of ready to use themes. Some of them are suit for product page, portfolio or blog for which I need. I've chosen theme named [hugo-theme-slim](https://github.com/zhe/hugo-theme-slim). 
+
+To install theme visit the themes Github repository and clone to your website directory. 
+
+![git hub clone](/images/uploads/clone-git.gif)
+
+
+
+```bash
+cd themes
+git clone https://github.com/zhe/hugo-theme-slim slim
+```

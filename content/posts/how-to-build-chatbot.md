@@ -11,7 +11,7 @@ tags:
 ---
 What chatbots are? Chatbots are the future of software and a new way to provide services through a conversational interface like Messenger, WhatsApp, Slack, Telegram etc.
 
-![Hero image](https://miro.medium.com/max/700/1*8ct70K3FbQQ2OOwW030fwA.jpeg)
+![Hero image](/images/uploads/its-heromessenger.jpg)
 
 I will show you how to build your own bot and deploy it on Messenger platform in several simply steps using [Python](https://www.python.org/), [Flask](https://palletsprojects.com/p/flask/) and [Heroku](https://dashboard.heroku.com/).
 

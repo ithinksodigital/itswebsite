@@ -157,6 +157,6 @@ $ heroku git:remote -a <YOUR-HEROKU-PROJECT-NAME>
 $ git push heroku master
 ```
 
-… your apps should working on Heroku now. Last thing which you have to do it’e edit Callback URL onto Facebook Developer account. Have fun! 🐍 Final code you can finde on my [Github repo](https://github.com/radipawelec/messenger-py-chatbot-sample/blob/master/app.py).
+… your apps should working on Heroku now. Last thing which you have to do it’e edit Callback URL onto Facebook Developer account. Have fun! 🐍 Final code you can find on my [Github repo](https://github.com/radipawelec/messenger-py-chatbot-sample/blob/master/app.py).
 
 This post originally was published also on Medium.

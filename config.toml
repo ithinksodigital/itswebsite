@@ -108,7 +108,7 @@ customCSS = ["css/foo.css", "css/bar.css"]
 
   [[params.social]]
     name = "github"
-    url = "https://github.com/radipawelec"
+    url = "https://github.com/ithinksodigital"
 
     
   [[params.social]]

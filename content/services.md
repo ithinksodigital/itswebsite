@@ -13,5 +13,5 @@ Let's work together
 * Chatbots
 * Python scripts
 
-Learn more on [GitHub](https://github.com/radipawelec).
+Learn more on [GitHub](https://github.com/ithinksodigital).
 

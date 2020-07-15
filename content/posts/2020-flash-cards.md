@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Flash cards "
+title: Simply Flash cards game in Google Actions
 date: 2020-07-15T17:39:39.662Z
 thumbnail: /images/uploads/hugo-sm-hero.jpg
 draft: false

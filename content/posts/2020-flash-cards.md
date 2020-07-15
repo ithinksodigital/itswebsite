@@ -9,6 +9,8 @@ tags:
 ---
 
 
+![](/images/uploads/its-heroflashcardspng.png)
+
 **Do you know how easy you can run your own Flashcards games in Google Assistant?** 
 
 Recently, I started learning Spanish. I faced the challenge of memorizing many new words. I thought I could use old method - flashcards but in a new version. Unfortunately, there was no free application in the AppStore that would allow me to add my own words into. Of course I could write this app from scratch but I don't enought free time. Google Actions came to me with ready solution. In less than 10 minutes I launched my chatbot with whom I can learn new words.

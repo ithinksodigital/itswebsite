@@ -3,7 +3,7 @@ layout: post
 title: "Flash cards "
 date: 2020-07-15T17:39:39.662Z
 thumbnail: /images/uploads/hugo-sm-hero.jpg
-draft: true
+draft: false
 tags:
   - chatbot bot google actions google asistant
 ---

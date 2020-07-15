@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Simply Flash cards game in Google Actions
+title: Simply Flashcards game in Google Actions
 date: 2020-07-15T17:39:39.662Z
-thumbnail: /images/uploads/hugo-sm-hero.jpg
+thumbnail: /images/uploads/its-heroflashcardspng.png
 draft: false
 tags:
   - chatbot bot google actions google asistant
@@ -15,9 +15,9 @@ Recently, I started learning Spanish. I faced the challenge of memorizing many n
 
 1. [Open Google Actions](https://console.actions.google.com/u/0/) and create a New Project
 
-   ![Flash cards new project](/images/uploads/flashcards-newproject.png)
+   ![Flashcards new project](/images/uploads/flashcards-newproject.png)
 
-   Type your project name and choose Games next Flash cards! Yes that's easy as it is! Google has shared many templates which you can use for free.
+   Type your project name and choose Games next Flashcards! Yes that's easy as it is! Google has shared many templates which you can use for free.
 2. Choose your new bot name-  users say or type this name to begin interacting with it, and your Google Assistant voice. 
 3. Now the most important thing, you have to feed your bot with the words you want to repeat.
 

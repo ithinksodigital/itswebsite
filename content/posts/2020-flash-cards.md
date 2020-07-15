@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Simply Flashcards game in Google Actions
-date: 2020-07-15T17:39:39.662Z
+date: 2020-07-15T19:38:46.839Z
 thumbnail: /images/uploads/its-heroflashcardspng.png
 draft: false
 tags:

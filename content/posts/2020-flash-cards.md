@@ -14,3 +14,11 @@ tags:
    ![Flash cards new project](/images/uploads/flashcards-newproject.png)
 
    Type your project name and choose Games next Flash cards! Yes that's easy as it is! Google has shared many templates which you can use for free.
+2. Choose your new bot name-  users say or type this name to begin interacting with it, and your Google Assistant voice. 
+3. Now the most important thing, you have to feed your bot with the words you want to repeat.
+
+   ![](/images/uploads/flashcards-newproject1.png)
+
+   From the left hand menu choose Actions and click Get started. Google will offer you to open and copy a properly prepared template where you need to add your own content. After that copy the URL of your newly created sheet and pass into form.
+
+   ![](/images/uploads/flashcards-newproject1.png)

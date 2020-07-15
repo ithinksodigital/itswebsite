@@ -12,3 +12,5 @@ tags:
 1. [Open Google Actions](https://console.actions.google.com/u/0/) and create a New Project
 
    ![Flash cards new project](/images/uploads/flashcards-newproject.png)
+
+   Type your project name and choose Games next Flash cards! Yes that's easy as it is! Google has shared many templates which you can use for free.

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on ithinkso.digital</title>
+    <link>https://www.ithinkso.digital/tags/</link>
+    <description>Recent content in Tags on ithinkso.digital</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Sat, 02 May 2020 13:12:19 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.ithinkso.digital/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>hugo webdevelopment staticwebsite website</title>
+      <link>https://www.ithinkso.digital/tags/hugo-webdevelopment-staticwebsite-website/</link>
+      <pubDate>Sat, 02 May 2020 13:12:19 +0000</pubDate>
+      
+      <guid>https://www.ithinkso.digital/tags/hugo-webdevelopment-staticwebsite-website/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chatbot</title>
+      <link>https://www.ithinkso.digital/tags/chatbot/</link>
+      <pubDate>Tue, 21 Apr 2020 19:36:10 +0000</pubDate>
+      
+      <guid>https://www.ithinkso.digital/tags/chatbot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Heroku</title>
+      <link>https://www.ithinkso.digital/tags/heroku/</link>
+      <pubDate>Tue, 21 Apr 2020 19:36:10 +0000</pubDate>
+      
+      <guid>https://www.ithinkso.digital/tags/heroku/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Messenger</title>
+      <link>https://www.ithinkso.digital/tags/messenger/</link>
+      <pubDate>Tue, 21 Apr 2020 19:36:10 +0000</pubDate>
+      
+      <guid>https://www.ithinkso.digital/tags/messenger/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://www.ithinkso.digital/tags/python/</link>
+      <pubDate>Tue, 21 Apr 2020 19:36:10 +0000</pubDate>
+      
+      <guid>https://www.ithinkso.digital/tags/python/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on ithinkso.digital</title>
+    <link>https://www.ithinkso.digital/tags/python/</link>
+    <description>Recent content in Python on ithinkso.digital</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Tue, 21 Apr 2020 19:36:10 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.ithinkso.digital/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to Build Chatbot</title>
+      <link>https://www.ithinkso.digital/posts/how-to-build-chatbot/</link>
+      <pubDate>Tue, 21 Apr 2020 19:36:10 +0000</pubDate>
+      
+      <guid>https://www.ithinkso.digital/posts/how-to-build-chatbot/</guid>
+      <description>What chatbots are? Chatbots are the future of software and a new way to provide services through a conversational interface like Messenger, WhatsApp, Slack, Telegram etc.
+I will show you how to build your own bot and deploy it on Messenger platform in several simply steps using Python, Flask and Heroku.
+Setup Facebook Developer Account Before you start coding have to create a [Facebook developer account(https://developers.facebook.com/apps/)], Facebook App, Facebook page, and set it all up.</description>
+    </item>
+    
+  </channel>
+</rss>

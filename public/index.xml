@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ithinkso.digital</title>
+    <link>https://www.ithinkso.digital/</link>
+    <description>Recent content on ithinkso.digital</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Tue, 21 Apr 2020 21:21:24 +0200</lastBuildDate>
+    
+	<atom:link href="https://www.ithinkso.digital/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Building static website using HUGO</title>
+      <link>https://www.ithinkso.digital/posts/2020-building-static-website-using-hugo/</link>
+      <pubDate>Sat, 02 May 2020 13:12:19 +0000</pubDate>
+      
+      <guid>https://www.ithinkso.digital/posts/2020-building-static-website-using-hugo/</guid>
+      <description>Have you ever heard about Hugo? If not but you need to build your own website - portfolio, company page, product page or just a blog you definitely need to read this article.
+ Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again.
+ This is what you can read on Hugo&amp;rsquo;s website. What is the most important it this tool?</description>
+    </item>
+    
+    <item>
+      <title>How to Build Chatbot</title>
+      <link>https://www.ithinkso.digital/posts/how-to-build-chatbot/</link>
+      <pubDate>Tue, 21 Apr 2020 19:36:10 +0000</pubDate>
+      
+      <guid>https://www.ithinkso.digital/posts/how-to-build-chatbot/</guid>
+      <description>What chatbots are? Chatbots are the future of software and a new way to provide services through a conversational interface like Messenger, WhatsApp, Slack, Telegram etc.
+I will show you how to build your own bot and deploy it on Messenger platform in several simply steps using Python, Flask and Heroku.
+Setup Facebook Developer Account Before you start coding have to create a [Facebook developer account(https://developers.facebook.com/apps/)], Facebook App, Facebook page, and set it all up.</description>
+    </item>
+    
+    <item>
+      <title>Services</title>
+      <link>https://www.ithinkso.digital/services/</link>
+      <pubDate>Tue, 21 Apr 2020 21:21:24 +0200</pubDate>
+      
+      <guid>https://www.ithinkso.digital/services/</guid>
+      <description>Need help with your project?
+Let&amp;rsquo;s work together
+ Web development (Wordpress, HUGO, Django, React and more) Online marketing Chatbots Python scripts  Learn more on GitHub.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://www.ithinkso.digital/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.ithinkso.digital/contact/</guid>
+      <description>  grecaptcha.ready(function() { grecaptcha.execute(&#39;6Lf-MfAUAAAAAE4dwSezxCqvNloSgnV3wdHcXJUN&#39;, {action: &#39;contact&#39;}); });   .grecaptcha-badge { bottom: 60px !important; } #contactForm { margin: 0 auto; } #contactForm input, textarea { letter-spacing: 2px; font: 200 1em/1.1em &#39;Helvetica Neue&#39;, sans-serif; color: #E7EDF1; background-color: RGBA(204, 204, 204, .1); outline: none; border: none; display:block; margin: 0 auto; padding: 1em; width: 90%; max-width: 400px; } #contactForm textarea { height: 150px; } #contactForm *:focus { background-color: #F92672; } #contactForm *:hover { background-color: #F92672; } ::-webkit-input-placeholder { color: #E7EDF1; } :-moz-placeholder { /* Firefox 18- */ color: #E7EDF1; } ::-moz-placeholder { /* Firefox 19+ */ color: #E7EDF1; } :-ms-input-placeholder { color: #E7EDF1; }  Don&#39;t fill this out if you&#39;re human:--    </description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://www.ithinkso.digital/thankyou/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.ithinkso.digital/thankyou/</guid>
+      <description>Thank you for your submission!</description>
+    </item>
+    
+  </channel>
+</rss>

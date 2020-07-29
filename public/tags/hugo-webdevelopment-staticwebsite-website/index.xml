@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hugo webdevelopment staticwebsite website on ithinkso.digital</title>
+    <link>https://www.ithinkso.digital/tags/hugo-webdevelopment-staticwebsite-website/</link>
+    <description>Recent content in hugo webdevelopment staticwebsite website on ithinkso.digital</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Sat, 02 May 2020 13:12:19 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.ithinkso.digital/tags/hugo-webdevelopment-staticwebsite-website/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Building static website using HUGO</title>
+      <link>https://www.ithinkso.digital/posts/2020-building-static-website-using-hugo/</link>
+      <pubDate>Sat, 02 May 2020 13:12:19 +0000</pubDate>
+      
+      <guid>https://www.ithinkso.digital/posts/2020-building-static-website-using-hugo/</guid>
+      <description>Have you ever heard about Hugo? If not but you need to build your own website - portfolio, company page, product page or just a blog you definitely need to read this article.
+ Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again.
+ This is what you can read on Hugo&amp;rsquo;s website. What is the most important it this tool?</description>
+    </item>
+    
+  </channel>
+</rss>

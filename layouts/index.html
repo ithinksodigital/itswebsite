@@ -20,9 +20,13 @@
 		<div id="home-center">
 			<!-- <h1 id="home-title">{{ .Site.Title }}</h1> -->
 			<h1 id="home-title"><img src="/logo.png"/></h1>
-
+		
 			{{- with .Site.Params.homeSubtitle }}
 			<p id="home-subtitle">{{.}}</p>
+			<video id="video" width="450" controls  >
+					<source src="/images/its_movie_promo.mp4" type=video/mp4>
+				  </video>
+				  <br/>
 			{{- end }}
 			{{- with .Site.Params.social }}
 			<div id="home-social">
@@ -41,4 +45,5 @@
 			</p>
 		</div>
 	</div>
+
 {{ end }}

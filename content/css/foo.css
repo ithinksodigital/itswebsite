@@ -179,3 +179,13 @@
 #TableOfContents a:hover {
     border-bottom: #f82672 1px solid
 }
+
+#headerPopup{
+    width:75%;
+    margin:0 auto;
+  }
+  
+  #headerPopup iframe{
+    width:100%;
+    margin:0 auto;
+  }

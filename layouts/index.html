@@ -20,10 +20,14 @@
 		<div id="home-center">
 			<!-- <h1 id="home-title">{{ .Site.Title }}</h1> -->
 			<h1 id="home-title"><img src="/logo.png"/></h1>
-		
+
 			{{- with .Site.Params.homeSubtitle }}
+
 			<p id="home-subtitle">{{.}}</p>
-			<iframe src="https://player.vimeo.com/video/442685949" width="450" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+			<iframe class="embed-responsive-item"src="https://player.vimeo.com/video/442685949" width="450" height="250" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+			
 		<br/>
 			{{- end }}
 			{{- with .Site.Params.social }}
@@ -35,6 +39,9 @@
 				{{ partialCached "menu.html" . }}
 			</nav>
 		</div>
+
+
+
 		
 		<div id="home-footer">
 			<p>
@@ -42,6 +49,8 @@
 				{{- with (not (in (.Site.Language.Get "disableKinds") "RSS")) }} &#183; <a href="{{ "posts/index.xml" | absLangURL }}" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a>{{ end }}
 			</p>
 		</div>
+		
 	</div>
+	
 
 {{ end }}

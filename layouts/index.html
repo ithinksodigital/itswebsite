@@ -23,10 +23,8 @@
 		
 			{{- with .Site.Params.homeSubtitle }}
 			<p id="home-subtitle">{{.}}</p>
-			<video id="video" width="450" controls  >
-					<source src="/images/its_movie_promo.mp4" type=video/mp4>
-				  </video>
-				  <br/>
+			<iframe src="https://player.vimeo.com/video/442685949" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+		<br/>
 			{{- end }}
 			{{- with .Site.Params.social }}
 			<div id="home-social">
